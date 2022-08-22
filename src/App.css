@@ -1,0 +1,31 @@
+.tweet-card-container {
+  padding: 10%;
+}
+
+.form-container {
+  padding: 5%;
+}
+
+.header-container {
+  padding: 2%;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1080px;
+  width: 1080px;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
