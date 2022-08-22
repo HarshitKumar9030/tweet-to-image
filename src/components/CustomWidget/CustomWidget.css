@@ -1,0 +1,84 @@
+.main-widget{
+    position: fixed;
+    background-color: #62cdff;
+    top: 8rem;
+    height: 60px;
+    animation-duration: 300ms;
+    transition-duration: 300ms;
+    width: 8px;
+    cursor: pointer;
+    left: 0;
+    z-index: 9999;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-widget{
+        position: fixed;
+        background-color: #62cdff;
+        top: 8rem;
+        height: 60px;
+        animation-duration: 300ms;
+        transition-duration: 200ms;
+        width: 8px;
+        cursor: pointer;
+        left: 0;
+        z-index: 9999;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+    
+
+.main-widget:hover{
+    background-color: #62a6ff;
+}
+
+.widget-enabled{
+    width: 23rem;
+    position: fixed;
+    border-radius: 8px;
+    background-color: #62c1ff;
+    top: 8rem;
+    border: #62a6ff solid 3.5px;
+    z-index: 9999;
+    left: 1rem;
+    height: calc(35% - 2rem);
+}
+
+.fadeIn {
+    animation: fadeInAnimation 0.7s linear;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  .fadeOut {
+    animation: fadeOutAnimation 0.7s linear;
+  }
+  
+  @keyframes fadeOutAnimation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .radius {
+    border-radius: 8px;
+    border: 12px;
+    border-color: #62a6ff;
+  }
+
+  
+  

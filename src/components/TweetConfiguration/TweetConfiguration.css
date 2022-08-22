@@ -1,0 +1,15 @@
+.field {
+    margin: 9px 0;
+}
+
+.checkbox-field {
+    margin: 18px 0 14px 0;
+}
+
+.mantine-Accordion-itemTitle > button:first-child {
+    padding: 14px 8px;
+}
+  
+.mantine-Accordion-label {
+    font-size: 14px;
+}
