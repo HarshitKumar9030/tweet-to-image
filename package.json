@@ -1,0 +1,57 @@
+{
+  "name": "tweet-to-image",
+  "description": "Tweet to Image — Download a Tweet as an Instagram-Ready Image",
+  "version": "0.1.0",
+  "author": {
+    "name": "Harshit Kumar",
+    "email": "manager@harshitkumar.tech"
+  },
+  "private": true,
+  "homepage": "https://harshitkumar9030.github.io/tweet-to-image/",
+  "dependencies": {
+    "@mantine/core": "^4.2.10",
+    "@mantine/hooks": "^4.2.10",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.41",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "html-to-image": "^1.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "react-tweet-card": "^0.2.0",
+    "tabler-icons-react": "^1.50.0",
+    "typescript": "^4.7.4",
+    "unique-names-generator": "^4.7.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
