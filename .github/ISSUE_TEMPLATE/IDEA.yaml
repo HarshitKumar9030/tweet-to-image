@@ -1,0 +1,28 @@
+name: Submit an idea
+description: Submit an idea or feature request
+title: "[Idea]: "
+labels: ["idea", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to think of an idea or feature and fill out this report.
+  - type: textarea
+    id: what
+    attributes:
+      label: Please explain your idea/feature request
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would you like to see this incorporated? 
+    validations:
+      required: true
+  - type: dropdown
+    id: selfdevelop
+    attributes:
+      label: Do you have capacity to develop this yourself?
+      options:
+        - "Yes"
+        - "No"

@@ -1,0 +1,20 @@
+name: Support
+description: Got a question? Pop them here
+title: "[Q]: "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not use this form to raise issues, bugs, or feature requests.
+  - type: textarea
+    id: question
+    attributes:
+      label: I want to ask
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser information
+      placeholder: ex. Chrome version 79.2.1

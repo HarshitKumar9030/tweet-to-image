@@ -1,0 +1,30 @@
+name: Bug report
+description: Spotted one? Please let me know
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - clydedz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+  - type: textarea
+    id: what
+    attributes:
+      label: Please explain the issue and what was your expectation
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: Please elaborate the steps to reproduce the issue
+    validations:
+      required: true   
+  - type: input
+    id: browser
+    attributes:
+      label: Browser information
+      placeholder: ex. Chrome version 79.2.1
+    validations:
+      required: true
