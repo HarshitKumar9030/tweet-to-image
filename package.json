@@ -7,7 +7,7 @@
     "email": "manager@harshitkumar.tech"
   },
   "private": true,
-  "homepage": "https://tweet-to-image.exce.tech/",
+  "homepage": "https://tti.exce.tech/",
   "dependencies": {
     "@mantine/core": "^4.2.10",
     "@mantine/hooks": "^4.2.10",
