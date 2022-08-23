@@ -7,7 +7,7 @@
     "email": "manager@harshitkumar.tech"
   },
   "private": true,
-  "homepage": "https://harshitkumar9030.github.io/tweet-to-image/",
+  "homepage": "https://tweet-to-image.exce.tech/",
   "dependencies": {
     "@mantine/core": "^4.2.10",
     "@mantine/hooks": "^4.2.10",
@@ -34,7 +34,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
